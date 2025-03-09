@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="NovaAcademia.Site1" %>
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Nova Academia</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- Estilos css-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-reboot.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+        
+    
+        
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container"> 
+                <!-- LOGO --> 
+                <a class="navbar-brand mr-auto" href="Home.aspx"><asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="/img/NovaAcademia.png" Height="50px" /></a> 
+      
+                <!-- Botão de Menu usado quando a janela web não estiver maximizada -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+      
+                <!-- Links do MENU -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"> <a class="nav-link" href="Home.aspx">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="Modalidades.aspx">Modalidades</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="Cadastro.aspx">Matrícule-se</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="Sobre.aspx">Sobre Nós</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="Contato.aspx">Contato</a> </li>
+                    </ul>
+                    <ul class="navbar-nav ml-5">
+                        <li class="nav-item"> <a class="nav-link btn btn-danger" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="corpo">
+            
+                    
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               
+                </asp:ContentPlaceHolder>
+                        
+        </div>
+
+<footer class="container-fluid">
+  <div class="container" style="text-align: center">
+      <br />
+        <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="/img/NovaAcademia.png" Height="50px" />
+        <br />
+          <p>
+              Horário de funcionamento:
+              <br />Segunda a Sexta - 06:00h às 23:00h
+              <br />Sábado - 09:00h às 15:00h
+              <br />
+              <br />&copy; 2021 Nova Academia.
+              <br />Todos os direitos reservados.
+            </p>
+        </div>
+</footer>
+        
+    </form>
+    
+    <!--Javascript necessário para o Botão do menu funcionar quando a janela web não estiver maximizada  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+
+    
+</body>
+</html>
