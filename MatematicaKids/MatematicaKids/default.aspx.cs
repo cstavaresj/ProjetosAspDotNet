@@ -21,7 +21,7 @@ namespace MatematicaKids
         protected void Button1_Click(object sender, EventArgs e)
         {
             //Cria conexão com o banco
-            var connString = "server = sql10.freemysqlhosting.net; User Id = sql10421961; database = sql10421961; password = kPmWHKMynR";
+            var connString = "server = ; User Id = ; database = ; password = ;";
             var connection = new MySqlConnection(connString);
             var command = connection.CreateCommand();
 
