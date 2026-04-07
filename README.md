@@ -1,4 +1,4 @@
-# 📘 ProjetosAspDotNet
+﻿# 📘 ProjetosAspDotNet
 
 Este repositório contém dois projetos desenvolvidos em **ASP.NET** com integração ao banco de dados **MySQL**, ambos criados no **Microsoft Visual Studio**. O primeiro projeto, "MatematicaKids", é uma plataforma web educacional para crianças, e o segundo, "NovaAcademia", é um site para uma academia fictícia com funcionalidades de cadastro de matrículas.
 
@@ -24,7 +24,7 @@ O repositório contém duas pastas: a pasta `MatematicaKids` com os arquivos do 
 
 ### MatematicaKids
 1. **Configurar o Banco de Dados:**
-   - Certifique-se de que o MySQL Server está configurado e pronto para uso.
+   - Certifique-se de que o MySQL Server está configurado e pronto para uso.    
 
 2. **Abrir o Projeto:**
    - Clone este repositório (veja "Como baixar o repositório" abaixo).
@@ -39,7 +39,7 @@ O repositório contém duas pastas: a pasta `MatematicaKids` com os arquivos do 
 
 ### NovaAcademia
 1. **Configurar o Banco de Dados:**
-   - Certifique-se de que o MySQL Server está configurado e pronto para uso.
+   - Certifique-se de que o MySQL Server está configurado e pronto para uso.    
 
 2. **Abrir o Projeto:**
    - Clone este repositório (veja "Como baixar o repositório" abaixo).
@@ -61,3 +61,12 @@ O repositório contém duas pastas: a pasta `MatematicaKids` com os arquivos do 
 3. Ou use o Git: `git clone https://github.com/cstavaresj/ProjetosAspDotNet.git`
 
 ---
+
+## 📸 Screenshots
+
+### Nova Academia
+![Sem Título](NovaAcademia/Sem%20título.png)
+![Sem Título 2](NovaAcademia/Sem%20título2.png)
+
+### Matemática Kids
+![Print Principal](MatematicaKids/print.png)
